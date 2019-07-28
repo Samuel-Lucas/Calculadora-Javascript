@@ -47,6 +47,8 @@ body {
   padding-top: 60px;
 }
 
+@media (min-width: 890px) {
+
 #historico {
   position: relative;
   left: 90px;
@@ -67,4 +69,30 @@ body {
   font-size: 16px;
   color: white;
   border-radius: 8px;
+}
+}
+
+@media (max-width: 889.78px) {
+
+#historico {
+  position: relative;
+  left: 320px;
+  top: 20px;
+  background-color: white;
+  width: 23%;
+  height: 360px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px darkblue;
+}
+
+.botao {
+  width: 12%;
+  position: relative;
+  left: 26px;
+  bottom: 315px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+}
 }
